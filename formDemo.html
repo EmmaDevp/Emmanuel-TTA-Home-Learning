@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Demo</title>
+    </head>
+    <body>
+        <!--Form-Input types-->
+        <form>
+            Please, Enter Your Details:
+            <br>
+            <label>First Name:</label>
+            <input type="text" name="fname" placeholder="e.g Dave"/>
+            <br>
+            Last Name:
+            <input type="text" name="lname" placeholder="e.g John"/>
+            <br>
+            Password:
+            <input type="password" name="pass" placeholder="case sensitive"/>
+            <br>
+            Select Academy:
+            Software<input type="checkbox" name="academy"/>
+            AWS<input type="checkbox" name="academy"/>
+            <br>
+            Select Gender:
+            Boy<input type="radio" name="g1"/>
+            Girl<input type="radio" name="g1"/>
+            <br>
+            Address:<textarea name="address" rows="5" cols="20"></textarea>
+            <br>
+
+            Select Subject:
+            <select>
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+            </select>
+
+            <br>
+
+            Select City:
+            <input list="city">
+            <datalist id="city">
+                <option value="Maxico"></option>
+                <option value="Delhi"></option>
+                <option value="Hubai"></option>
+                <option value="London"></option>
+            </datalist>
+
+            <br>
+            <input type="submit" value="Save"/>
+            <input type="reset" value="Clear"/>
+
+            <br>
+            <input type="color"/>
+        </form>
+    </body>
+</html>
